@@ -36,6 +36,7 @@ Tags:
     @green: #94C9C3;
     @red: #F75851;
     @gray: #F8F8F8;
+    @cream: #FCF7EC;
 
     @serif: Georgia, serif;
 
@@ -52,9 +53,9 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: Lato, sans-serif;
+	font-family: Georgia, serif;
 	font-size: 1em;
-	line-height: 1.5;
+	line-height: 1.75;
 }
 /* Headings */
 h1,
@@ -64,6 +65,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: Lato, sans-serif;
 }
 hr {
 	background-color: #ccc;
@@ -158,8 +160,12 @@ header#masthead {
 ----------------------------------------------- */
 .center { text-align: center; }
 .red { color: @red }
-.blue { color: @green }
+.green { color: @green }
+.green-bg { background: @green }
 .gray { background: @gray; }
+.cream { background: @cream; }
+.light-green { background: lighten(@green, 20%)}
+
 .lowercase { text-transform: lowercase;}
 .left{ float: left; margin-right: 50px; width: 45%; text-align: left; }
 .right { float: left; width: 45%; text-align: left;}
@@ -172,6 +178,8 @@ header#masthead {
 
 .callout { font-size: 2em; font-weight: 300;}
 .callout-small { font-size: 1.5em; font-weight: 300;}
+
+.polaroid { border: 20px solid white;}
 
 
 /* =Grid / Columns
@@ -240,17 +248,26 @@ header#masthead {
 	font-size: 1.5em;
 	font-weight: 600;
 	letter-spacing: -1px;
-	padding-top: 20px;
+	padding-top: 16px;
 	text-transform: uppercase;
 	height: 80px;
 	background-image: url('images/logo-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
+}
 
+.colophon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #222;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    padding: 5px 10px;
 }
-.site-description {
-	font-size: 18px;
-}
+
 /* Alignment */
 .alignleft {
 	display: inline;
@@ -288,7 +305,6 @@ form#wp-stripe-payment-form input, form#wp-stripe-payment-form textarea{    padd
 /* =Sections
 ----------------------------------------------- */
 section{
-	margin: 25px 0;
 	padding: 75px 0;
 }
 
@@ -348,6 +364,7 @@ section.why-bother{
 .section-title{
 	font-size: 1.25em;
 	text-align: center;
+	font-family: Oswald;
 }
 .section-number {
 	width:75px; 
@@ -364,11 +381,12 @@ section.why-bother{
 	-ms-transform-origin: 0 100%;
 	-o-transform-origin: 0 100%;
 	transform-origin: 0 100%;
-	.number {
+	.number, .camera {
 		position: absolute;
-		top: 13px;
+		top: 10px;
 		left: 20px;
 		z-index: 5;
+		font-family: Oswald;
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
@@ -380,6 +398,13 @@ section.why-bother{
 		-o-transform-origin: 0 100%;
 		transform-origin: 0 100%;
 	}
+
+	.camera {
+	    top: -14px;
+		left: 0px;
+		img { width: 45px}
+	}
+
 }
 
 
@@ -661,10 +686,13 @@ object {
 /* Extra Text elements */
 blockquote {
 	padding: 10px;
+	font-family: Oswald;
+	font-weight: 500;
+	text-transform: uppercase;
 	margin: 25px 0;
 	width: 100%;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
 	text-align: center;
 		 
 }

@@ -7,15 +7,17 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
 	<link href='style.css' rel='stylesheet' type='text/css'>
 </head>
 
 
 
+<div class="colophon">A quick snap from WaterstreetGM</div>
 
 <section class="center first greenbg group">
 	<div class="limiter">
-		<p>From WaterstreetGM</p>
 		<h1 class="site-title">How to take better photos</h1>
 		
 		<div class="table-of-contents">
@@ -32,11 +34,11 @@
 	</div>
 </section>
 
-<section class="green gray group">
+<section class="cream group">
 	<div class="limiter">
 
 		<div class="col2">
-			<div class="section-number"> <span class="number">01</span></div>
+			<div class="section-number light-green"> <span class="number">01</span></div>
 			<h3 class="section-title">Jargon</h3>		 
 		</div>
 
@@ -60,6 +62,27 @@
 
 	</div>
 </section>
+
+
+
+
+<section class="green-bg group">
+	<div class="limiter">
+
+		<div class="col2">
+			<div class="section-number"> <span class="camera"><img src="images/camera-icon.png" alt=""></span></div>
+		</div>
+
+
+		
+		<div class="col8 margin1 pad2x">
+			<img class="polaroid" src="images/larry.jpg" alt="">
+		</div>
+
+	</div>
+</section>
+
+
 
 
 <section class="gray group">
@@ -92,23 +115,46 @@
 			I said up front that this isn't a technical article, and I'm sticking to it! I don't want to get bogged down in the technical aspects of what aperture is &#8212; you can read all about that <a href="http://en.wikipedia.org/wiki/Aperture">somewhere else</a> if you're interesed. I want to focus on what impact aperture has on your photos. And again, it's my opinion that you don't need to know the technical stuff going on the background to see what aperture can do for you.
 
 			<h2>An Aperture exercise</h2>
-			<p>I want you to forget about the word aperture for a second. Instead, follow along here with your finger:</p>
+			<p>I want you to forget about the word aperture for a second. In fact, forget about your camera all together. Instead, follow along here with your finger:</p>
 			<ol>
 				<li>Hold your finger about one foot from your nose.</li>
 				<li>Stare at your finger.</li>
-				<li>Next, stare at the floor, or a distant wall or window</li>
-				<li>Keep alternating focus between your finger and the wall.</li>
+				<li>Next, stare at this computer screen</li>
+				<li>Keep alternating focus between your finger and the screen.</li>
 				<li>Finger</li>
-				<li>Wall</li>
+				<li>Screen</li>
 				<li>Finger</li>
-				<li>Wall</li>
+				<li>Screen</li>
 			</ol>
 			
-			<p>While you're altertaning between focusing on your finger and the wall, just have a look at what happens to the item that you're not focused on. What happens to the wall when you're staring at the finger? It becomes blurry, doesn't it? As a result, your finger becomes more prominent in the scene </p>
+			<p>While you're altertaning between focusing on your finger and the screen, just have a look at what happens to the item that you're not focused on. What happens to the screen when you're staring at the finger? It becomes blurry, doesn't it? As a result, your finger becomes more prominent in the scene. It essentially <em>stands out</em> from the background.</p>
 
 
 			<h2>What can aperture do for me?</h2>
-			Aperture is what transforms a normal photo into a great one. When you're shooting photos of people, it's always, always, always going to be aperture that will separate good photos from boring ones. 
+			
+			<p>Aperture is what transforms a normal photo into a great one. When you're shooting photos of people, it's always, always, always going to be aperture that will separate good photos from boring ones. </p>
+
+			<p>Just as you saw your finger being separated from the background of your computer screen, that's what you want to do with people in the photos you take. You want to create <em>depth</em> between the subject and the background. The fancy photography word for this is <em>depth of field</em>, but again, don't worry about the jargon. All I want you to think about is having the people you're shooting stand out from the background.</p>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="green-bg group">
+	<div class="limiter">
+
+		<div class="col12">
+			<div class="section-number"> <span class="camera"><img src="images/camera-icon.png" alt=""></span></div>
+		</div>
+
+
+		
+		<div class="col5 margin1x">
+			<img class="polaroid" src="images/larry.jpg" alt="">
+		</div>
+		<div class="col5">
+						<img class="polaroid" src="images/larry.jpg" alt="">
 
 		</div>
 
